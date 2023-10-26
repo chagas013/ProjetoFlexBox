@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+img {
+  width: 15vw;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 15px 0;
+}
+
+.cards {
+    border: 1px solid #ddd;
+    width: 30vw;
+    line-height: 25px;
+    padding: 25px;
+    background-color: #b4b1b1;
+    height: 40vh;
+}
+
+.area-restrita {
+    display: flex;    
+    align-items: center;
+    background-color: bisque;
+    padding: 0 20px;
+}
