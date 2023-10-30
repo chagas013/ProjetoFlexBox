@@ -1,31 +1,50 @@
+:root {
+    --cor-primaria: #576c86;
+    --cor-secundaria: #b47862;
+    font-size: 16px;
+}
+
 header {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: var(--cor-primaria);
+    
 }
 
 h1 {
-    font-size: 20px;
+    text-align: center;
+    font-family:fantasy;
+    font-size: 2rem;
+    color: var(--cor-secundaria);    
 }
 
 h2 {
+    font-size: 1rem;
     font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 img {
   width: 15vw;
+  background-color: var(--cor-primaria);
 }
 
 main {
     display: flex;
     justify-content: space-around;
+    
 }
 
 footer {
     text-align: center;
-    background-color: antiquewhite;
+    background-color: var(--cor-primaria);
     padding: 15px 0;
+    margin-top: 15px;
 }
 
 .cards {
@@ -33,13 +52,14 @@ footer {
     width: 30vw;
     line-height: 25px;
     padding: 25px;
-    background-color: #b4b1b1;
-    height: 40vh;
+    background-color: var(--cor-secundaria);
+    height: auto;
+    margin-top: 15px;
 }
 
 .area-restrita {
     display: flex;    
     align-items: center;
-    background-color: bisque;
+    background-color: var(--cor-primaria);
     padding: 0 20px;
 }
